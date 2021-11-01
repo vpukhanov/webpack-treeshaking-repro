@@ -1,0 +1,17 @@
+{
+  "name": "important-function-pkg",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  }
+}
