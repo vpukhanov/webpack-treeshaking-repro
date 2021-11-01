@@ -1,0 +1,21 @@
+{
+  "name": "@local/final-pkg",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "@local/important-function-pkg": "0.0.0",
+    "@local/middleware-pkg": "0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  }
+}
