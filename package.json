@@ -1,5 +1,9 @@
 {
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start": "node packages/final-pkg/lib/index.js"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
