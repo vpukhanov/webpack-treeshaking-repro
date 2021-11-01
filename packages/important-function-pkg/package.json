@@ -11,6 +11,9 @@
   "scripts": {
     "prepublish": "tsc"
   },
+  "dependencies": {
+    "@babel/runtime": "7.16.0"
+  },
   "devDependencies": {
     "typescript": "4.4.4"
   }
