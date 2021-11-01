@@ -5,7 +5,7 @@
     "start": "node packages/final-pkg/lib/index.js"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "4.0.0"
   },
   "name": "webpack-treeshaking-repro"
 }
