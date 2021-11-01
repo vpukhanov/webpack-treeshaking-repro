@@ -1,5 +1,5 @@
 {
-  "name": "@local/important-function-pkg",
+  "name": "@local/middleware-pkg",
   "version": "0.0.0",
   "main": "lib/index.js",
   "directories": {
