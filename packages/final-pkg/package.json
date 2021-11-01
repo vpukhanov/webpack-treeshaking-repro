@@ -13,8 +13,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.16.0",
-    "@local/important-function-pkg": "0.0.0",
-    "@local/middleware-pkg": "0.0.0"
+    "@local/important-function-pkg": "0.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",

@@ -26,7 +26,16 @@ module.exports = () => {
             loader: require.resolve('babel-loader'),
             options: {
               presets: [
-                ['@babel/preset-env', { loose: true }],
+                [
+                  '@babel/preset-env',
+                  {
+                    loose: true,
+                    // workaround: if we ask babel to provide commonjs modules,
+                    // webpack can't tree shake them afterwards, and the bundle
+                    // works correctly
+                    // modules: 'cjs',
+                  },
+                ],
                 '@babel/preset-typescript',
               ],
               plugins: [['@babel/plugin-transform-runtime']],
